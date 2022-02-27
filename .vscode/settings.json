@@ -1,0 +1,51 @@
+{
+  "C_Cpp_Runner.cCompilerPath": "C:/MinGW/bin/gcc.exe",
+  "C_Cpp_Runner.cppCompilerPath": "C:/MinGW/bin/g++.exe",
+  "C_Cpp_Runner.makePath": "C:/MinGW/bin/make.exe",
+  "C_Cpp_Runner.warnings": [
+    "-Wall",
+    "-Wextra",
+    "-Wpedantic"
+  ],
+  "C_Cpp_Runner.compilerArgs": [],
+  "C_Cpp_Runner.includePaths": [],
+  "C_Cpp_Runner.linkerArgs": [],
+  "C_Cpp_Runner.cStandard": "",
+  "C_Cpp_Runner.cppStandard": "",
+  "C_Cpp_Runner.excludeSearch": [],
+  "C_Cpp_Runner.enableWarnings": true,
+  "C_Cpp_Runner.warningsAsError": false,
+  "C_Cpp.errorSquiggles": "Disabled",
+  "files.associations": {
+    "iostream": "cpp",
+    "ostream": "cpp",
+    "new": "cpp",
+    "ratio": "cpp",
+    "system_error": "cpp",
+    "array": "cpp",
+    "functional": "cpp",
+    "tuple": "cpp",
+    "type_traits": "cpp",
+    "utility": "cpp"
+  },
+  "C_Cpp_Runner.msvcBatchPath": "",
+  "C_Cpp_Runner.includeSearch": [
+    "*",
+    "**/*"
+  ],
+  "sqltools.connections": [
+    {
+      "mysqlOptions": {
+        "authProtocol": "default"
+      },
+      "previewLimit": 50,
+      "server": "localhost",
+      "port": 3306,
+      "driver": "MySQL",
+      "name": "mysql",
+      "username": "ruturaj",
+      "password": "@#$ymphony",
+      "database": "mysql"
+    }
+  ]
+}
