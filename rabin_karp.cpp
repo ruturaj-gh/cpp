@@ -8,6 +8,7 @@ static void search(char pattern[], char txt[],int q){
     int p=0;
     int t=0;
     int h=1;
+    int something = 4;
 
     //the value of h would be pow(d,M-1)%q
     for(i=0;i<m-1;i++){

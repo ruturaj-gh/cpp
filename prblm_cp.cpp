@@ -44,12 +44,15 @@ int main()
     cout<<"enter the size of array"<<endl;
     cin>>n;
     int arr[n]={0};
+    string str="iiiii";
 
     for (int i=0;i<n;i++){
         cin>>arr[i];
         cout<<endl;
 
     }
+    printf("hello world");
+    cout<<"sometimes i just wonder how this works right now im okay with it but still confused that only words are got printing are just encoded in strings and other are considered as function  "<<str;
 
 
     //int n = sizeof(arr)/sizeof(arr[0]);
