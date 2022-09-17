@@ -1,1 +1,1 @@
-(n, 0.0
+    cout<<obj.guessNumber(20)<<endl;

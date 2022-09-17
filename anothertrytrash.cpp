@@ -1,52 +1,49 @@
-#include <iostream>
+#include <bits/stdc++.h>
+#include <map>
 using namespace std;
-static int fib(int n){
-  if(n==1 || n==2){
-    return 1;
 
+vector<int>  fun(vector<int> &v,int target)
+{
+  vector<int> output;
+  
+  int start=0;
+  int end=v.size();
+  
+  while (start<=end)
+  {
+    int mid=(start+end)/2;
+    if (v[mid]==target)
+    {
+      output.push_back(mid-1);
+      output.push_back(mid+1);
+      output.pop_back()
+      break;
+    }
+    else if (v[mid]>target)
+    {
+      start=mid+1;
+      
+    }
+    else
+    {
+      end=mid-1;
+      
+    }
   }
-  else{
-    return fib(n-1)+fib(n-2);
-  }
+  return output;
+  
+  
+  
 
 }
-
-static int anotherfib(int n,int memo[]){
-  int result=0;
-  if(memo[n]!='\0'){
-    return memo[n];
-  }
-  else if(n==1 || n==2){
-  result=1;
-    
-  }
-  else{
-    result=fib(n-1)+fib(n-2);
-    memo[n]=result;
-    return result;
-  }
-}
-static int feb_bottom_up(int n){
-  if(n==1 || n==2){
-    return 1;
-  }
-  int bottom_up[n]={};
-  bottom_up[0]=0;
-  bottom_up[1]=1;
-  for(int i=2;i<n;i++){
-    bottom_up[i]=bottom_up[i-1]+bottom_up[i-2];
-    
-  }
-  return bottom_up[n];
-}
-int main(){
-  int n=3;
-  int memo[n+1]={};
-  cout<<anotherfib(n,memo)<<endl;
-  cout<<fib(n)<<endl;
-  cout<<feb_bottom_up(n)<<endl;
+int main()
+{
+  vector<int> v = {5,7,7,8,9,10};
+  vector<int> ans;
+  ans=fun(v,8);
+  cout<<ans.at(0)<<endl;
+  cout<<ans.at(1)<<endl;
+  
 
 
-
-  return 0;
 }

@@ -7,9 +7,9 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": false,
-      "externalConsole": false,
+      "externalConsole": true,
       "cwd": "c:/Users/HP/Documents/cpp",
-      "program": "c:/Users/HP/Documents/cpp/build/Debug/outDebug",
+      "program": "c:/Users/HP/Documents/cpp/build/Release/outRelease",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

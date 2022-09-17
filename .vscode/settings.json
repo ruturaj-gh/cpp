@@ -27,7 +27,15 @@
     "tuple": "cpp",
     "type_traits": "cpp",
     "utility": "cpp",
-    "cmath": "cpp"
+    "cmath": "cpp",
+    "bitset": "cpp",
+    "initializer_list": "cpp",
+    "regex": "cpp",
+    "valarray": "cpp",
+    "vector": "cpp",
+    "memory": "cpp",
+    "thread": "cpp",
+    "typeindex": "cpp"
   },
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.includeSearch": [
