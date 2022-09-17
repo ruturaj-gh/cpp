@@ -48,5 +48,7 @@
       "password": "@#$ymphony",
       "database": "mysql"
     }
-  ]
+  ],
+  "C_Cpp_Runner.debuggerPath": "gdb",
+  "C_Cpp_Runner.useMsvc": false
 }
